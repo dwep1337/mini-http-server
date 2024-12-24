@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
   res.end();
 });
 
-const PORT = 3000;
+const PORT = 8889;
 
 server.listen(PORT, () => {
   console.log(`Done listening on port ${PORT}!`);
